@@ -1,2 +1,4 @@
 node_modules
 dist
+data_processing/*
+*.DS_Store
