@@ -14,7 +14,7 @@
   <script>
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/objectives_connections.json')
+        .jsonUrl('./datasets/objectives_connections.json')
         .nodeAutoColorBy('group')
         .nodeThreeObject(node => {
           console.log("node", node)
